@@ -1,3 +1,29 @@
-body {
-  color:orange;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body{
+   font-family: 'poppins', sans-serif;
+}
+hr{
+  margin: 2rem 0;
+}
+.container-fluid{
+  padding-left: 1rem;
+  padding-right:1rem ;
+}
+.container{
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 600px;
+}
+#title{
+  font-size: 3rem;
+}
+
+
+
+
