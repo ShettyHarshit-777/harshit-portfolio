@@ -3,7 +3,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+  }
+  :root{
+    --primary : #334155;
+    --secondary: #b91c1c;
+    --gray: #94a3b8;
+    --white: #ffffff;
+
+  }
+
+
+  
 body{
    font-family: 'poppins', sans-serif;
 }
@@ -20,10 +30,24 @@ hr{
   padding-right: 1rem;
   max-width: 600px;
 }
-#title{
-  font-size: 3rem;
+
+.link{
+  min-width: 140px;
+  width:max-content;
+  padding:0.5rem 1rem;
+  text-decoration: none;
 }
 
+.primary-link{
+  color:var(--gray);
+  background-color: var(--primary);
+  border:1px solid var (--primary);
+  border-radius: 0.5rem;
+}
 
-
-
+.secondary-link{
+  color:var(--white);
+  background-color:var (--secondary);
+  border :1px solid var(--secondary);
+  border-radius: 0.5rem;
+}
