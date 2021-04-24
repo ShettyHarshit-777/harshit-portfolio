@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  }
+ *{
+   margin: 5px;
+padding: 1px;;
+   box-sizing: border-box;
+ }
+
+
   :root{
-    --primary : #334155;
-    --secondary: #b91c1c;
-    --gray: #94a3b8;
+    --primary:#6D28D9;
+    --secondary:#BE185D;
+    --gray:#94a3b8 ;
     --white: #ffffff;
 
   }
@@ -47,7 +49,47 @@ hr{
 
 .secondary-link{
   color:var(--white);
-  background-color:var (--secondary);
+  background-color:var(--secondary);
   border :1px solid var(--secondary);
   border-radius: 0.5rem;
+}
+ 
+
+.unlisted{
+  list-style: none;
+
+}
+
+.list-inline li{
+  display:inline;
+  padding:0rem 0.5rem;
+}
+
+.navigation{
+background-color: var(--primary);
+padding: 5rem 0rem;
+color:var(--gray);
+border-bottom-left-radius: 1rem;
+border-top-right-radius: 1rem;
+}
+
+
+
+.navigation.brand-name{
+  font-weight: 700;
+}
+
+.navigation ul{
+  list-style: none;
+  text-align: left;
+}
+
+.navigation ul li{
+  display:inline-block;
+  padding: 0 0.8rem;
+}
+ 
+.navigation ul li a {
+  font-weight: 500;
+  color:var(--white);
 }
