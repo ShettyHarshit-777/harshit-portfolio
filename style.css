@@ -81,7 +81,7 @@ border-top-right-radius: 1rem;
 
 .navigation ul{
   list-style: none;
-  text-align: left;
+text-align: left;
 }
 
 .navigation ul li{
@@ -93,3 +93,8 @@ border-top-right-radius: 1rem;
   font-weight: 500;
   color:var(--white);
 }
+.navigation ul li a.active{
+  font-weight: 700;
+  color:var(--white);
+}
+
