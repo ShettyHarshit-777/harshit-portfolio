@@ -115,3 +115,14 @@ text-align: left;
   border-radius: 50%;
   border: 1px solid var(--gray);
 }
+
+section{
+  padding: 2rem 0;
+}
+section h2{
+ text-align: center;
+  font: weight 70px;
+}
+section.gray{ background-color: black;
+color: blue;
+}
